@@ -8,7 +8,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <GenerateDependencyFile>false</GenerateDependencyFile>
-    <DebugType>portable</DebugType>
+    <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
+    <DebugType Condition="'$(Configuration)' != 'Release'">portable</DebugType>
     <Deterministic>true</Deterministic>
     <EnableNETAnalyzers>false</EnableNETAnalyzers>
     <GameDir Condition="'$(GameDir)' == ''">$(PROBABLY_STOLEN_DIR)</GameDir>

@@ -3,7 +3,7 @@
   <ID>better_customer_stock</ID>
   <Name>更好的顾客库存 | Better Customer Stock</Name>
   <Author>CloudforTree</Author>
-  <ModVersion>0.7.9</ModVersion>
+  <ModVersion>1.0.0</ModVersion>
   <Description>按顾客调整出货概率、货物数量和分类权重。档位为 −100 到 +100，0 沿用原版。「特殊商品设置」可调整共用固定名额的货物权重或指定数量。
 Adjust each customer's stock chance, quantity, and category weights. Sliders range from −100 to +100, with 0 using vanilla behavior. Use Special Goods Settings to adjust weights or set exact quantities for groups with a shared number of slots.</Description>
   <GameVersions />

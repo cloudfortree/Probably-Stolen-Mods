@@ -1,0 +1,12 @@
+bin/
+obj/
+dist/
+__pycache__/
+*.user
+*.dll
+*.exe
+*.pdb
+*.zip
+*.bak
+*.log
+术语索引.json
